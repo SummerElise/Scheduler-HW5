@@ -13,17 +13,16 @@ if (rowIdString) {
 }
 if (rowHour) {
  if (currentHour === rowHour) {
-     setColor(row, "red");
- }   else if ((currentHour < rowHour) && (currentHour > rowHour - 6)) {
-     setColor(row,"green");
- }   else if ((currentHour > rowHour) && (currentHour < rowHour + 6)) {
+     setColor(row, "green");
+ }   else if ((currentHour < rowHour) && (currentHour > rowHour - 10)) {
+     setColor(row,"red");
+ }   else if ((currentHour > rowHour) && (currentHour < rowHour + 10)) {
      setColor(row, "lightgrey");
- }   else {
-     setColor(row, "white");
- }
+ }   
 }
 });
 
 function setColor(element, color) {
     element.style.backgroundColor = color;
 }
+
