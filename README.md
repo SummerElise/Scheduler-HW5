@@ -1,4 +1,4 @@
-This week's assignment required me to create a quiz with Third Party APIs. This involved using Moment.js to create work day planner with functionality similar to the mock-up that
+This week's assignment required me to create a scheduler with Third Party APIs. This involved using Moment.js to create a work day planner with functionality similar to the mock-up that
 is provided below. 
 The following requirements are to be met based off the given scenario:
 
